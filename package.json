@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/react": "17",
     "@types/react-dom": "17",
+    "axios": "^1.6.8",
     "react": "17",
     "react-dom": "17",
     "react-scripts": "5.0.1",
@@ -23,6 +24,14 @@
     "extends": [
       "react-app",
       "react-app/jest"
+    ]
+  },
+  "devDependencies": {
+    "jest-when": "^3.6.0"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!(axios)/)"
     ]
   },
   "browserslist": {

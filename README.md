@@ -11,8 +11,24 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 **Requirement:** 
 
 We are having a "Load data" button in the app, on click of the button 
-- show the data fetched from the github url (https://api.github.com/users/<userName>)
 - until the data is fetched show only the loader (Text - Loading...) and not the button
+- Once data is fetched, show the data fetched from the github url (https://api.github.com/users/<userName>) & Load data button
+
+**_data received from backend_**
+
+```
+{
+    data: {
+        login: "MockUser1" 
+    } 
+}
+```
+
+**_Data to be displayed in screen_**
+
+```agsl
+Hello MockedUser1!
+```
 
 Note: We already have the code for loader shown on button click, start with hiding the "Load data" button
 
