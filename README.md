@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Demo problem statements
+
+#### 1. Counter
+
+#### 2. Git Profile app
+
+**Requirement:** 
+
+We are having a "Load data" button in the app, on click of the button 
+- show the data fetched from the github url (https://api.github.com/users/<userName>)
+- until the data is fetched show only the loader (Text - Loading...) and not the button
+
+Note: We already have the code for loader shown on button click, start with hiding the "Load data" button
+
 ## Available Scripts
 
 In the project directory, you can run:
