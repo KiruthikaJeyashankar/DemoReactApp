@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:black; /* Dark background color */
+    color: white; /* Text color */
+  }
+  
+  h1 {
+    font-size: 2rem; /* Header font size */
+  }
+  
+  div {
+    font-size: 3rem; /* Counter font size */
+    margin-bottom: 1rem; /* Spacing between the counter and buttons */
+  }
+  
+  button {
+    margin: 10px; /* Spacing between the buttons */
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #555; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #777; /* Darker button background color on hover */
+  }
+  
